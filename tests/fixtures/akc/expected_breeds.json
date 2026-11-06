@@ -1,0 +1,1167 @@
+{
+ "golden-retriever": {
+  "name": "Golden Retriever",
+  "group": "Sporting Group",
+  "origin": "Scotland",
+  "year_recognized": 1925,
+  "life_expectancy_raw": "10-12 years",
+  "life_min": 10,
+  "life_max": 12,
+  "height_min_in": 21.5,
+  "height_max_in": 24.0,
+  "weight_min_lb": 55.0,
+  "weight_max_lb": 75.0,
+  "height_display": "23-24 inches (male), 21.5-22.5 inches (female)",
+  "size": "Large",
+  "popularity_rank": 3,
+  "temperament": [
+   "intelligent",
+   "friendly",
+   "devoted"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 3,
+   "trainability_level": 5,
+   "good_with_young_children": 5,
+   "barking_level": 1
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation",
+   "Neuronal Ceroid Lipofuscinosis 5 (Golden Retriever) (NCL, NCL5) - DNA Test"
+  ],
+  "text_health_startswith": "Goldens are generally healthy dogs, and responsible breeders",
+  "pagemap_life": "10-12 years"
+ },
+ "labrador-retriever": {
+  "name": "Labrador Retriever",
+  "group": "Sporting Group",
+  "origin": "Canada",
+  "year_recognized": 1917,
+  "life_expectancy_raw": "11-13 years",
+  "life_min": 11,
+  "life_max": 13,
+  "height_min_in": 21.5,
+  "height_max_in": 24.5,
+  "weight_min_lb": 55.0,
+  "weight_max_lb": 80.0,
+  "height_display": "22.5-24.5 inches (male), 21.5-23.5 inches (female)",
+  "size": "Large",
+  "popularity_rank": 2,
+  "temperament": [
+   "active",
+   "friendly",
+   "outgoing"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 5,
+   "trainability_level": 5,
+   "good_with_young_children": 5,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Ophthalmologist Evaluation",
+   "D Locus (Dilute) - DNA Test",
+   "Centronuclear Myopathy (CNM) - DNA Test",
+   "Progressive Retinal Atrophy, PRCD (PRA-prcd, PRCD) - DNA Test",
+   "Exercise-Induced Collapse (EIC) - DNA Test"
+  ],
+  "text_health_startswith": "Labs are healthy dogs overall, and a responsible breeder scr",
+  "pagemap_life": "11-13 years"
+ },
+ "german-shepherd-dog": {
+  "name": "German Shepherd Dog",
+  "group": "Herding Group",
+  "origin": "Germany",
+  "year_recognized": 1908,
+  "life_expectancy_raw": "12-14 years",
+  "life_min": 12,
+  "life_max": 14,
+  "height_min_in": 22.0,
+  "height_max_in": 26.0,
+  "weight_min_lb": 50.0,
+  "weight_max_lb": 90.0,
+  "height_display": "24-26 inches (male), 22-24 inches (female)",
+  "size": "Large",
+  "popularity_rank": 4,
+  "temperament": [
+   "courageous",
+   "confident",
+   "smart"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 5,
+   "trainability_level": 5,
+   "good_with_young_children": 5,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Temperament Test"
+  ],
+  "text_health_startswith": "Most German Shepherds are healthy dogs. A responsible breede",
+  "pagemap_life": "12-14 years"
+ },
+ "french-bulldog": {
+  "name": "French Bulldog",
+  "group": "Non-Sporting Group",
+  "origin": "England",
+  "year_recognized": 1898,
+  "life_expectancy_raw": "10-12 years",
+  "life_min": 10,
+  "life_max": 12,
+  "height_min_in": 11.0,
+  "height_max_in": 13.0,
+  "weight_min_lb": 28.0,
+  "weight_max_lb": 28.0,
+  "height_display": "11-13 inches",
+  "size": "Small",
+  "popularity_rank": 1,
+  "temperament": [
+   "playful",
+   "smart",
+   "adaptable"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 3,
+   "trainability_level": 4,
+   "good_with_young_children": 5,
+   "barking_level": 1
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Patella Evaluation",
+   "Hip Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "Because of their front-heavy structure, Frenchies cannot swi",
+  "pagemap_life": "10-12 years"
+ },
+ "bulldog": {
+  "name": "Bulldog",
+  "group": "Non-Sporting Group",
+  "origin": "England",
+  "year_recognized": 1886,
+  "life_expectancy_raw": "8-10 years",
+  "life_min": 8,
+  "life_max": 10,
+  "height_min_in": 14.0,
+  "height_max_in": 15.0,
+  "weight_min_lb": 40.0,
+  "weight_max_lb": 50.0,
+  "height_display": "14-15 inches",
+  "size": "Medium",
+  "popularity_rank": 10,
+  "temperament": [
+   "friendly",
+   "courageous",
+   "calm"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 3,
+   "trainability_level": 4,
+   "good_with_young_children": 3,
+   "barking_level": 2
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Patella Evaluation",
+   "Cardiac Exam",
+   "Tracheal Hypoplasia Radiographic Evaluation"
+  ],
+  "text_health_startswith": "Bulldog owners should be vigilant to ensure their dog does n",
+  "pagemap_life": "8-10 years"
+ },
+ "poodle-standard": {
+  "name": "Poodle (Standard)",
+  "group": "Non-Sporting Group",
+  "origin": "Germany",
+  "year_recognized": 1887,
+  "life_expectancy_raw": "10-18 years",
+  "life_min": 10,
+  "life_max": 18,
+  "height_min_in": 15.0,
+  "height_max_in": 15.0,
+  "weight_min_lb": 40.0,
+  "weight_max_lb": 70.0,
+  "height_display": "over 15 inches (standard)",
+  "size": "Medium",
+  "popularity_rank": 7,
+  "temperament": [
+   "active",
+   "proud",
+   "very smart"
+  ],
+  "traits": {
+   "shedding_level": 1,
+   "energy_level": 4,
+   "trainability_level": 5,
+   "good_with_young_children": 5,
+   "barking_level": 4
+  },
+  "coat_type": [
+   "Curly"
+  ],
+  "coat_length": [
+   "Long"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Ophthalmologist Evaluation",
+   "DNA Test for Neonatal Encephalopathy with Seizures (NEwS) or clear by parentage (Standard only)",
+   "Autoimmune Thyroiditis Evaluation (Standard Only)",
+   "Von Willebrand Disease I (VWDI) - DNA Test"
+  ],
+  "text_health_startswith": "Most Poodles live long, happy, healthy lives thanks to the e",
+  "pagemap_life": "10-18 years"
+ },
+ "beagle": {
+  "name": "Beagle",
+  "group": "Hound Group",
+  "origin": "England",
+  "year_recognized": 1885,
+  "life_expectancy_raw": "10-15 years",
+  "life_min": 10,
+  "life_max": 15,
+  "height_min_in": 13.0,
+  "height_max_in": 15.0,
+  "weight_min_lb": 13.0,
+  "weight_max_lb": 15.0,
+  "height_display": "13 inches & under, 13-15 inches",
+  "size": "Small",
+  "popularity_rank": 7,
+  "temperament": [
+   "curious",
+   "friendly",
+   "merry"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 4,
+   "trainability_level": 3,
+   "good_with_young_children": 5,
+   "barking_level": 4
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation",
+   "Thyroid Evaluation",
+   "Musladin-Lueke Syndrome (MLS) - DNA Test"
+  ],
+  "text_health_startswith": "Responsible breeders will screen their breeding stock for he",
+  "pagemap_life": "10-15 years"
+ },
+ "rottweiler": {
+  "name": "Rottweiler",
+  "group": "Working Group",
+  "origin": "Germany",
+  "year_recognized": 1931,
+  "life_expectancy_raw": "9-10 years",
+  "life_min": 9,
+  "life_max": 10,
+  "height_min_in": 22.0,
+  "height_max_in": 27.0,
+  "weight_min_lb": 80.0,
+  "weight_max_lb": 135.0,
+  "height_display": "24-27 inches (male), 22-25 inches (female)",
+  "size": "Large",
+  "popularity_rank": 8,
+  "temperament": [
+   "loyal",
+   "loving",
+   "confident guardian"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 3,
+   "trainability_level": 5,
+   "good_with_young_children": 3,
+   "barking_level": 1
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation",
+   "Juvenile Laryngeal Paralysis & Polyneuropathy (JLPP) - DNA Test"
+  ],
+  "text_health_startswith": "Before breeding, responsible Rottweiler breeders have potent",
+  "pagemap_life": "9-10 years"
+ },
+ "dachshund": {
+  "name": "Dachshund",
+  "group": "Hound Group",
+  "origin": "Germany",
+  "year_recognized": 1885,
+  "life_expectancy_raw": "12-16 years",
+  "life_min": 12,
+  "life_max": 16,
+  "height_min_in": 5.0,
+  "height_max_in": 9.0,
+  "weight_min_lb": 11.0,
+  "weight_max_lb": 32.0,
+  "height_display": "8-9 inches (standard), 5-6 inches (miniature)",
+  "size": "Small",
+  "popularity_rank": 5,
+  "temperament": [
+   "curious",
+   "friendly",
+   "spunky"
+  ],
+  "traits": {
+   "shedding_level": 2,
+   "energy_level": 3,
+   "trainability_level": 4,
+   "good_with_young_children": 3,
+   "barking_level": 5
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short",
+   "Medium"
+  ],
+  "health_tests": [
+   "Patella Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "Generally a healthy breed, the Dachshund can be expected to ",
+  "pagemap_life": "12-16 years"
+ },
+ "pembroke-welsh-corgi": {
+  "name": "Pembroke Welsh Corgi",
+  "group": "Herding Group",
+  "origin": "Wales",
+  "year_recognized": 1934,
+  "life_expectancy_raw": "12-13 years",
+  "life_min": 12,
+  "life_max": 13,
+  "height_min_in": 10.0,
+  "height_max_in": 12.0,
+  "weight_min_lb": 28.0,
+  "weight_max_lb": 30.0,
+  "height_display": "10-12 inches",
+  "size": "Small",
+  "popularity_rank": 16,
+  "temperament": [
+   "alert",
+   "affectionate",
+   "smart"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 4,
+   "trainability_level": 4,
+   "good_with_young_children": 3,
+   "barking_level": 4
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "The Pembroke is typically a healthy breed, and responsible b",
+  "pagemap_life": "12-13 years"
+ },
+ "yorkshire-terrier": {
+  "name": "Yorkshire Terrier",
+  "group": "Toy Group",
+  "origin": "England",
+  "year_recognized": 1885,
+  "life_expectancy_raw": "11-15 years",
+  "life_min": 11,
+  "life_max": 15,
+  "height_min_in": 7.0,
+  "height_max_in": 8.0,
+  "weight_min_lb": 7.0,
+  "weight_max_lb": 7.0,
+  "height_display": "7-8 inches",
+  "size": "XSmall",
+  "popularity_rank": 13,
+  "temperament": [
+   "affectionate",
+   "sprightly",
+   "tomboyish"
+  ],
+  "traits": {
+   "shedding_level": 1,
+   "energy_level": 4,
+   "trainability_level": 4,
+   "good_with_young_children": 5,
+   "barking_level": 4
+  },
+  "coat_type": [
+   "Silky"
+  ],
+  "coat_length": [
+   "Long"
+  ],
+  "health_tests": [
+   "Patella Evaluation",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "Yorkshire Terriers are generally healthy dogs, and responsib",
+  "pagemap_life": "11-15 years"
+ },
+ "siberian-husky": {
+  "name": "Siberian Husky",
+  "group": "Working Group",
+  "origin": "Siberia",
+  "year_recognized": 1930,
+  "life_expectancy_raw": "12-14 years",
+  "life_min": 12,
+  "life_max": 14,
+  "height_min_in": 20.0,
+  "height_max_in": 23.5,
+  "weight_min_lb": 35.0,
+  "weight_max_lb": 60.0,
+  "height_display": "21-23.5 inches (male), 20-22 inches (female)",
+  "size": "Medium",
+  "popularity_rank": 30,
+  "temperament": [
+   "Loyal",
+   "Outgoing",
+   "mischievous"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 5,
+   "trainability_level": 3,
+   "good_with_young_children": 5,
+   "barking_level": 5
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Ophthalmologist Evaluation",
+   "Siberian Husky Shaking Puppy Syndrome Type 1 (SPS1)",
+   "Siberian Husky Polyneuropathy Type 1 (SHPN1)"
+  ],
+  "text_health_startswith": "Siberian Huskies are generally a healthy, relatively long-li",
+  "pagemap_life": "12-14 years"
+ },
+ "great-dane": {
+  "name": "Great Dane",
+  "group": "Working Group",
+  "origin": "Germany",
+  "year_recognized": 1887,
+  "life_expectancy_raw": "7-10 years",
+  "life_min": 7,
+  "life_max": 10,
+  "height_min_in": 28.0,
+  "height_max_in": 32.0,
+  "weight_min_lb": 110.0,
+  "weight_max_lb": 175.0,
+  "height_display": "30-32 inches (male), 28-30 inches (female)",
+  "size": "XLarge",
+  "popularity_rank": 22,
+  "temperament": [
+   "friendly",
+   "patient",
+   "dependable"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 4,
+   "trainability_level": 3,
+   "good_with_young_children": 3,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation",
+   "Thyroid Evaluation"
+  ],
+  "text_health_startswith": "Bloat, or gastric dilatation-volvulus (GDV), is the number-o",
+  "pagemap_life": "7-10 years"
+ },
+ "chihuahua": {
+  "name": "Chihuahua",
+  "group": "Toy Group",
+  "origin": "Mexican State of Chihuahua",
+  "year_recognized": 1904,
+  "life_expectancy_raw": "14-16 years",
+  "life_min": 14,
+  "life_max": 16,
+  "height_min_in": 5.0,
+  "height_max_in": 8.0,
+  "weight_min_lb": 6.0,
+  "weight_max_lb": 6.0,
+  "height_display": "5-8 inches",
+  "size": "XSmall",
+  "popularity_rank": 24,
+  "temperament": [
+   "charming",
+   "graceful",
+   "sassy"
+  ],
+  "traits": {
+   "shedding_level": 2,
+   "energy_level": 4,
+   "trainability_level": 3,
+   "good_with_young_children": 1,
+   "barking_level": 5
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short",
+   "Medium"
+  ],
+  "health_tests": [
+   "Patella Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "The majority of Chihuahuas are healthy little dogs, but ther",
+  "pagemap_life": "14-16 years"
+ },
+ "pug": {
+  "name": "Pug",
+  "group": "Toy Group",
+  "origin": "China",
+  "year_recognized": 1885,
+  "life_expectancy_raw": "13-15 years",
+  "life_min": 13,
+  "life_max": 15,
+  "height_min_in": 10.0,
+  "height_max_in": 13.0,
+  "weight_min_lb": 14.0,
+  "weight_max_lb": 18.0,
+  "height_display": "10-13 inches",
+  "size": "Small",
+  "popularity_rank": 38,
+  "temperament": [
+   "charming",
+   "loving",
+   "mischievous"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 3,
+   "trainability_level": 4,
+   "good_with_young_children": 5,
+   "barking_level": 1
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Eye Examination by a board Certified ACVO Ophthalmologist",
+   "Patellar Luxation",
+   "Pug Dog Encephalitis (PDE) - DNA Test"
+  ],
+  "text_health_startswith": "The Pug's dark, appealing eyes are one of his main attractio",
+  "pagemap_life": "13-15 years"
+ },
+ "leonberger": {
+  "name": "Leonberger",
+  "group": "Working Group",
+  "origin": "Germany",
+  "year_recognized": 2010,
+  "life_expectancy_raw": "7 years",
+  "life_min": 7,
+  "life_max": 7,
+  "height_min_in": 25.5,
+  "height_max_in": 31.5,
+  "weight_min_lb": 90.0,
+  "weight_max_lb": 170.0,
+  "height_display": "28-31.5 inches (male), 25.5-29.5 inches (female)",
+  "size": "XLarge",
+  "popularity_rank": 96,
+  "temperament": [
+   "friendly",
+   "playful",
+   "gentle"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 3,
+   "trainability_level": 5,
+   "good_with_young_children": 5,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Long"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Thyroid Evaluation",
+   "Polyneuropathy (Leonberger Type 2) (PN, LPN2) - DNA Test",
+   "Laryngeal Paralysis & Polyneuropathy (Leonberger Type 3) (LPPN3) - DNA Test",
+   "Ophthalmologist Exam (CERF)",
+   "Leukoencephalomyelopathy (LEMP) - DNA Test",
+   "Leonberger Polyneuropathy 1 (LPN1) - DNA Test"
+  ],
+  "text_health_startswith": "As with all canines, proper exercise and nutrition, routine ",
+  "pagemap_life": "7 years"
+ },
+ "welsh-terrier": {
+  "name": "Welsh Terrier",
+  "group": "Terrier Group",
+  "origin": "Wales",
+  "year_recognized": 1888,
+  "life_expectancy_raw": "12-15 years",
+  "life_min": 12,
+  "life_max": 15,
+  "height_min_in": 15.0,
+  "height_max_in": 15.5,
+  "weight_min_lb": 20.0,
+  "weight_max_lb": 20.0,
+  "height_display": "15 inches (male), porportionally smaller (female)",
+  "size": "Small",
+  "popularity_rank": 114,
+  "temperament": [
+   "intelligent",
+   "friendly",
+   "spirited"
+  ],
+  "traits": {
+   "shedding_level": 2,
+   "energy_level": 4,
+   "trainability_level": 4,
+   "good_with_young_children": 5,
+   "barking_level": 4
+  },
+  "coat_type": [
+   "Double",
+   "Wiry"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Primary Lens Luxation (PLL) - DNA Test"
+  ],
+  "text_health_startswith": "Welsh puppies are generally hardy, thrive with regular care,",
+  "pagemap_life": "12-15 years"
+ },
+ "basenji": {
+  "name": "Basenji",
+  "group": "Hound Group",
+  "origin": "Central Africa",
+  "year_recognized": 1944,
+  "life_expectancy_raw": "13-14 years",
+  "life_min": 13,
+  "life_max": 14,
+  "height_min_in": 16.0,
+  "height_max_in": 17.0,
+  "weight_min_lb": 22.0,
+  "weight_max_lb": 24.0,
+  "height_display": "17 inches (male), 16 inches (female)",
+  "size": "Small",
+  "popularity_rank": 92,
+  "temperament": [
+   "independent",
+   "smart",
+   "poised"
+  ],
+  "traits": {
+   "shedding_level": 2,
+   "energy_level": 4,
+   "trainability_level": 2,
+   "good_with_young_children": 3,
+   "barking_level": 1
+  },
+  "coat_type": [
+   "Smooth"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Ophthalmologist Evaluation",
+   "Thyroid Evaluation",
+   "Progressive Retinal Atrophy (Basenji) (PRA) - DNA Test",
+   "Fanconi's Syndrome, Paradoxic glucosuria - DNA Test"
+  ],
+  "text_health_startswith": "Basenji are generally healthy dogs, and responsible breeders",
+  "pagemap_life": "13-14 years"
+ },
+ "xoloitzcuintli": {
+  "name": "Xoloitzcuintli",
+  "group": "Non-Sporting Group",
+  "origin": "Mexico",
+  "year_recognized": 2011,
+  "life_expectancy_raw": "13-18 years",
+  "life_min": 13,
+  "life_max": 18,
+  "height_min_in": 10.0,
+  "height_max_in": 23.0,
+  "weight_min_lb": 10.0,
+  "weight_max_lb": 55.0,
+  "height_display": "10-14 inches (toy), 14-18 inches (miniature), 18-23 inches (standard)",
+  "size": "Medium",
+  "popularity_rank": 123,
+  "temperament": [
+   "alert",
+   "loyal",
+   "calm"
+  ],
+  "traits": {
+   "shedding_level": 1,
+   "energy_level": 4,
+   "trainability_level": 4,
+   "good_with_young_children": 3,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Smooth",
+   "Hairless"
+  ],
+  "coat_length": [
+   "Short"
+  ],
+  "health_tests": [
+   "Patella Evaluation",
+   "Hip Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "Xolos are generally healthy dogs, and responsible breeders w",
+  "pagemap_life": "13-18 years"
+ },
+ "komondor": {
+  "name": "Komondor",
+  "group": "Working Group",
+  "origin": "Hungary",
+  "year_recognized": 1937,
+  "life_expectancy_raw": "10-12 years",
+  "life_min": 10,
+  "life_max": 12,
+  "height_min_in": 25.5,
+  "height_max_in": 27.5,
+  "weight_min_lb": 80.0,
+  "weight_max_lb": 100.0,
+  "height_display": "27.5 minimum inches (male), 25.5 minimum inches (female)",
+  "size": "Large",
+  "popularity_rank": 185,
+  "temperament": [
+   "dignified",
+   "loyal",
+   "brave"
+  ],
+  "traits": {
+   "shedding_level": 1,
+   "energy_level": 3,
+   "trainability_level": 4,
+   "good_with_young_children": 3,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Corded"
+  ],
+  "coat_length": [
+   "Long"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Ophthalmologist Evaluation",
+   "Dentition Exam"
+  ],
+  "text_health_startswith": "There are no known health problems specific to Komondors. Re",
+  "pagemap_life": "10-12 years"
+ },
+ "border-collie": {
+  "name": "Border Collie",
+  "group": "Herding Group",
+  "origin": "England/Scotland",
+  "year_recognized": 1995,
+  "life_expectancy_raw": "12-15 years",
+  "life_min": 12,
+  "life_max": 15,
+  "height_min_in": 18.0,
+  "height_max_in": 22.0,
+  "weight_min_lb": 30.0,
+  "weight_max_lb": 55.0,
+  "height_display": "19-22 inches (male), 18-21 inches (female)",
+  "size": "Medium",
+  "popularity_rank": 26,
+  "temperament": [
+   "energetic",
+   "affectionate",
+   "smart"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 5,
+   "trainability_level": 5,
+   "good_with_young_children": 3,
+   "barking_level": 4
+  },
+  "coat_type": [
+   "Wavy",
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "The Border Collie is generally a very hardy and healthy bree",
+  "pagemap_life": "12-15 years"
+ },
+ "cavalier-king-charles-spaniel": {
+  "name": "Cavalier King Charles Spaniel",
+  "group": "Toy Group",
+  "origin": "England",
+  "year_recognized": 1995,
+  "life_expectancy_raw": "12-15 years",
+  "life_min": 12,
+  "life_max": 15,
+  "height_min_in": 12.0,
+  "height_max_in": 13.0,
+  "weight_min_lb": 13.0,
+  "weight_max_lb": 18.0,
+  "height_display": "12-13 inches",
+  "size": "Small",
+  "popularity_rank": 12,
+  "temperament": [
+   "affectionate",
+   "gentle",
+   "graceful"
+  ],
+  "traits": {
+   "shedding_level": 2,
+   "energy_level": 3,
+   "trainability_level": 4,
+   "good_with_young_children": 5,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Silky",
+   "Wavy"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Patella Evaluation",
+   "Hip Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation"
+  ],
+  "text_health_startswith": "There are several health issues that Cavaliers are prone to.",
+  "pagemap_life": "12-15 years"
+ },
+ "central-asian-shepherd-dog": {
+  "name": "Central Asian Shepherd Dog",
+  "group": "Foundation Stock Service",
+  "origin": "Russia",
+  "year_recognized": null,
+  "life_expectancy_raw": " years",
+  "life_min": null,
+  "life_max": null,
+  "height_min_in": 25.5,
+  "height_max_in": 27.5,
+  "weight_min_lb": 88.0,
+  "weight_max_lb": 110.0,
+  "height_display": "Minimum: 25.5-27.5 inches",
+  "size": "Large",
+  "popularity_rank": null,
+  "temperament": [
+   "independent",
+   "courageous",
+   "self-confident"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 3,
+   "trainability_level": 4,
+   "good_with_young_children": 3,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [],
+  "text_health_startswith": "Like all breeds there may be some health issues. The Central",
+  "pagemap_life": "years"
+ },
+ "blue-picardy-spaniel": {
+  "name": "Blue Picardy Spaniel",
+  "group": "Foundation Stock Service",
+  "origin": "France",
+  "year_recognized": null,
+  "life_expectancy_raw": "11-12 years",
+  "life_min": 11,
+  "life_max": 12,
+  "height_min_in": null,
+  "height_max_in": null,
+  "weight_min_lb": null,
+  "weight_max_lb": null,
+  "height_display": "22 - 24 inches male, 21 - 23 inches female",
+  "size": "",
+  "popularity_rank": null,
+  "temperament": [
+   "friendly",
+   "mellow",
+   "merry"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 3,
+   "trainability_level": 5,
+   "good_with_young_children": 5,
+   "barking_level": 3
+  },
+  "coat_type": [],
+  "coat_length": [],
+  "health_tests": [],
+  "text_health_startswith": "Blue Picardy Spaniels are generally healthy dogs. Responsibl",
+  "pagemap_life": "11-12 years"
+ },
+ "bernese-mountain-dog": {
+  "name": "Bernese Mountain Dog",
+  "group": "Working Group",
+  "origin": "Switzerland",
+  "year_recognized": 1937,
+  "life_expectancy_raw": "7-10 years",
+  "life_min": 7,
+  "life_max": 10,
+  "height_min_in": 23.0,
+  "height_max_in": 27.5,
+  "weight_min_lb": 70.0,
+  "weight_max_lb": 115.0,
+  "height_display": "25-27.5 inches (male), 23-26 inches (female)",
+  "size": "XLarge",
+  "popularity_rank": 20,
+  "temperament": [
+   "good-natured",
+   "calm",
+   "strong"
+  ],
+  "traits": {
+   "shedding_level": 5,
+   "energy_level": 4,
+   "trainability_level": 4,
+   "good_with_young_children": 5,
+   "barking_level": 3
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Cardiac Exam",
+   "Ophthalmologist Evaluation",
+   "Degenerative Myelopathy (Bernese Mountain Dog Variant) (DM) - DNA Test",
+   "AKC DNA Profile",
+   "Degenerative Myelopathy (Common Variant) (DM) - DNA Test"
+  ],
+  "text_health_startswith": "Berners are generally healthy dogs, and responsible breeders",
+  "pagemap_life": "7-10 years"
+ },
+ "newfoundland": {
+  "name": "Newfoundland",
+  "group": "Working Group",
+  "origin": "Canada",
+  "year_recognized": 1886,
+  "life_expectancy_raw": "9-10 years",
+  "life_min": 9,
+  "life_max": 10,
+  "height_min_in": 26.0,
+  "height_max_in": 28.0,
+  "weight_min_lb": 100.0,
+  "weight_max_lb": 150.0,
+  "height_display": "28 inches (average male), 26 inches (average female)",
+  "size": "XLarge",
+  "popularity_rank": 46,
+  "temperament": [
+   "devoted",
+   "sweet",
+   "patient"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 3,
+   "trainability_level": 3,
+   "good_with_young_children": 5,
+   "barking_level": 1
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Cardiac Exam",
+   "Cystinuria (Newfoundland) - DNA Test"
+  ],
+  "text_health_startswith": "Responsible breeders screen their stock for health condition",
+  "pagemap_life": "9-10 years"
+ },
+ "czechoslovakian-vlciak": {
+  "name": "Czechoslovakian Vlciak",
+  "group": "Miscellaneous Class",
+  "origin": "Czechoslovakia",
+  "year_recognized": null,
+  "life_expectancy_raw": "12-16 years",
+  "life_min": 12,
+  "life_max": 16,
+  "height_min_in": 23.5,
+  "height_max_in": 25.5,
+  "weight_min_lb": 44.0,
+  "weight_max_lb": 57.0,
+  "height_display": "Minimum: 25.5 males; 23.5 females",
+  "size": "Medium",
+  "popularity_rank": null,
+  "temperament": [
+   "loyal",
+   "intelligent",
+   "active"
+  ],
+  "traits": {
+   "shedding_level": 3,
+   "energy_level": 5,
+   "trainability_level": 1,
+   "good_with_young_children": 3,
+   "barking_level": 1
+  },
+  "coat_type": [],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [
+   "Hip Evaluation",
+   "Elbow Evaluation",
+   "Cardiac Exam",
+   "Dentition Exam",
+   "Degenerative Myelopathy DNA Test",
+   "DNA Repository",
+   "Pituitary Dwarfism - DNA Test"
+  ],
+  "text_health_startswith": "Czechoslovakian Vlcaks are a very healthy and robust breed. ",
+  "pagemap_life": "12-16 years"
+ },
+ "slovensky-cuvac": {
+  "name": "Slovensky Cuvac",
+  "group": "Foundation Stock Service",
+  "origin": "Slovakia",
+  "year_recognized": null,
+  "life_expectancy_raw": "11-13 years",
+  "life_min": 11,
+  "life_max": 13,
+  "height_min_in": 23.0,
+  "height_max_in": 27.5,
+  "weight_min_lb": 68.0,
+  "weight_max_lb": 97.0,
+  "height_display": "23-27.5 inches",
+  "size": "Large",
+  "popularity_rank": null,
+  "temperament": [
+   "alert",
+   "courageous",
+   "faithful"
+  ],
+  "traits": {
+   "shedding_level": 4,
+   "energy_level": 3,
+   "trainability_level": 3,
+   "good_with_young_children": 3,
+   "barking_level": 1
+  },
+  "coat_type": [
+   "Double"
+  ],
+  "coat_length": [
+   "Medium"
+  ],
+  "health_tests": [],
+  "text_health_startswith": "Some dogs may be faced with health challenges in their lives",
+  "pagemap_life": "11-13 years"
+ }
+}

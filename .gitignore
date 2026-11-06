@@ -1,0 +1,12 @@
+# only the code is versioned; data, notes, plans and course material stay local
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/src/
+!/tests/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+*:Zone.Identifier
