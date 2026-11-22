@@ -1,6 +1,7 @@
 # only the code is versioned; data, notes, plans and course material stay local
 /*
 !/.gitignore
+!/Dockerfile
 !/README.md
 !/requirements.txt
 !/src/

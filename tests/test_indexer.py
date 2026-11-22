@@ -93,3 +93,47 @@ def test_compare_returns_every_method(index):
     assert set(results) == {"classic", "smooth", "max", "none"}
     assert [t for t, _, _ in term_table] == ["small", "pug", "size_small", "size_xsmall"]
     assert results["classic"][0][1]["id"] == "d0"
+
+
+WIKI = {"page_id": 7, "title": "Slovak Cuvac", "url": "w", "names": ["Slovak Cuvac", "Slovenský čuvač"],
+        "altnames": ["Tatransky Cuvac"], "nicknames": [], "country": ["Slovakia"], "origin_countries": ["Slovakia"],
+        "fci_number": 142, "fci_group": 1, "extinct": False, "lead": "A Slovak livestock guard dog.",
+        "temperament": "Loyal.", "health": "Hip dysplasia occurs.", "appearance": "White coat.",
+        "diseases": [{"title": "Canine hip dysplasia", "url": "d"}]}
+
+
+def test_joined_breed_document_adds_wiki_text_and_facets():
+    from indexer.documents import breed_document
+
+    rec = {"slug": "slovensky-cuvac", "name": "Slovensky Cuvac", "url": "a", "nicknames": [], "group": "Working Group",
+           "origin": "Slovakia", "size": "", "temperament": [], "colors": [], "health_tests": [], "height_display": "",
+           "weight_display": "", "life_min": None, "life_max": None, "text_blurb": "", "text_about": "",
+           "text_health": "", "text_grooming": "", "text_exercise": "", "text_training": "", "text_nutrition": "",
+           "text_history": "", "did_you_know": [], "traits": {"shedding_level": 3}, "wiki": WIKI}
+    doc = breed_document(rec)
+    assert doc["facets"] == ["shedding_3", "shedding_medium", "group_working", "origin_slovakia", "fci_recognised",
+                             "fci_group_1", "disease_canine_hip_dysplasia"]
+    assert "Slovenský čuvač" in doc["text"] and "Canine hip dysplasia" in doc["text"]
+    rec["wiki"] = None
+    assert "fci_recognised" not in breed_document(rec)["facets"]
+
+
+def test_wiki_breed_and_disease_documents():
+    from indexer.documents import disease_document, wiki_breed_document
+
+    doc = wiki_breed_document(WIKI)
+    assert (doc["id"], doc["type"]) == ("wiki-breed:7", "wiki-breed") and "White coat." in doc["text"]
+    d = disease_document({"page_id": 9, "title": "Cherry eye", "url": "u", "synonyms": ["Nictitans gland prolapse"],
+                          "lead": "Cherry eye is a disorder.", "akc_breeds": ["Beagle"], "wiki_breeds": ["Beagle", "Pug"]})
+    assert d["facets"] == ["disease_cherry_eye"] and d["text"].endswith("breeds: Beagle, Pug")
+
+
+@pytest.mark.parametrize("query,facets", [
+    ("dog breeds from slovakia", ["origin_slovakia"]),
+    ("slovak dog breeds", ["origin_slovakia"]),
+    ("breeds originating in the czech republic", ["origin_czech_republic"]),
+    ("fci group 1 herding dog", ["group_herding", "fci_group_1"]),
+    ("german shepherd lifespan and diseases", []),
+])
+def test_query_expansion_origin_and_fci_group(query, facets):
+    assert expand_query(query) == facets

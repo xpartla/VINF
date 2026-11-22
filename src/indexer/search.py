@@ -106,7 +106,8 @@ def main(argv=None):
     ap.add_argument("--tf", choices=sorted(TF_METHODS), default=DEFAULT_TF)
     ap.add_argument("--idf", choices=sorted(IDF_METHODS), default=DEFAULT_IDF)
     ap.add_argument("-k", type=int, default=10)
-    ap.add_argument("--type", choices=("breed", "article", "list"), default=None, help="restrict to one document type")
+    ap.add_argument("--type", choices=("breed", "article", "list", "wiki-breed", "disease"), default=None,
+                    help="restrict to one document type")
     ap.add_argument("--no-expand", action="store_true", help="do not add facet tokens derived from the query phrasing")
     ap.add_argument("--compare", action="store_true", help="show the top results of every IDF method")
     ap.add_argument("--md", action="store_true", help="markdown output (for the wiki)")

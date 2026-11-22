@@ -25,6 +25,19 @@ RULES = [
     (r"\b(?:playful|fun[- ]loving|goofy)\b", ["playfulness_high"]),
     (r"\b(?:herding|hound|sporting|working|terrier|toy|non[- ]sporting)\s+(?:group|breeds?|dogs?)\b", None),  # handled below
 ]
+# "from slovakia", "originating in the czech republic", "slovak breeds" -> origin_slovakia
+_ORIGIN_RE = re.compile(r"\b(?:from|originat\w*\s+(?:in|from)|bred in|native to|developed in)\s+(?:the\s+)?"
+                        r"([a-z]+(?:\s+(?:republic|kingdom|states))?)\b", re.IGNORECASE)
+DEMONYMS = {"slovak": "slovakia", "slovakian": "slovakia", "czech": "czech_republic", "czechoslovakian": "czechoslovakia",
+            "hungarian": "hungary", "polish": "poland", "german": "germany", "austrian": "austria", "swiss": "switzerland",
+            "french": "france", "belgian": "belgium", "dutch": "netherlands", "italian": "italy", "spanish": "spain",
+            "portuguese": "portugal", "croatian": "croatia", "serbian": "serbia", "russian": "russia", "english": "england",
+            "scottish": "scotland", "irish": "ireland", "welsh": "wales", "british": "united_kingdom",
+            "japanese": "japan", "chinese": "china", "tibetan": "tibet", "korean": "korea", "mexican": "mexico",
+            "american": "united_states", "canadian": "canada", "australian": "australia", "turkish": "turkey",
+            "finnish": "finland", "swedish": "sweden", "norwegian": "norway", "danish": "denmark", "icelandic": "iceland"}
+_DEMONYM_RE = re.compile(r"\b(%s)\s+(?:dog\s+)?(?:breeds?|dogs?)\b" % "|".join(DEMONYMS), re.IGNORECASE)
+_FCI_GROUP_RE = re.compile(r"\bfci\s+group\s+(\d{1,2})\b", re.IGNORECASE)
 _GROUP_RE = re.compile(r"\b(herding|hound|sporting|working|terrier|toy|non[- ]sporting)\s+(?:group|breeds?|dogs?)\b", re.IGNORECASE)
 _COMPILED = [(re.compile(p, re.IGNORECASE), toks) for p, toks in RULES if toks]
 
@@ -36,6 +49,16 @@ def expand_query(query):
             out += [t for t in toks if t not in out]
     for m in _GROUP_RE.finditer(query):
         tok = "group_" + m.group(1).lower().replace("-", "_").replace(" ", "_")
+        if tok not in out:
+            out.append(tok)
+    origins = [m.group(1).lower() for m in _ORIGIN_RE.finditer(query)]
+    origins += [DEMONYMS[m.group(1).lower()] for m in _DEMONYM_RE.finditer(query)]
+    for name in origins:
+        tok = "origin_" + DEMONYMS.get(name, name).replace(" ", "_")
+        if tok not in out:
+            out.append(tok)
+    for m in _FCI_GROUP_RE.finditer(query):
+        tok = f"fci_group_{int(m.group(1))}"
         if tok not in out:
             out.append(tok)
     return out

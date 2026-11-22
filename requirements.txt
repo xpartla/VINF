@@ -1,3 +1,5 @@
 requests>=2.31
 pytest>=8
 tiktoken>=0.7
+pyspark==4.2.1   # needs Java 17+ (e.g. conda install -c conda-forge openjdk=17)
+# PyLucene 10 is not on PyPI: Dockerfile (image coady/pylucene)

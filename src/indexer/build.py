@@ -1,4 +1,5 @@
 """Full rebuild of the inverted index: raw-tf postings, df, document norms per (tf, idf) weighting."""
+import argparse
 import json
 import math
 import sys
@@ -78,9 +79,21 @@ def summary(index, seconds, index_dir=INDEX_DIR):
     return "\n".join(lines)
 
 
-def main():
+SPARK_AKC_DIR = config.DATA_DIR / "spark" / "akc"
+SPARK_JOINED_DIR = config.DATA_DIR / "spark" / "joined"
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description="VINF index builder")
+    ap.add_argument("--part1", action="store_true", help="index data/extracted/ (part 1) even if the Spark output exists")
+    args = ap.parse_args(argv)
     t0 = time.time()
-    docs = load_documents(config.DATA_DIR / "extracted")
+    if not args.part1 and (SPARK_JOINED_DIR / "breeds").is_dir():
+        print(f"source: {SPARK_AKC_DIR} + {SPARK_JOINED_DIR} (Spark, joined with Wikipedia)")
+        docs = load_documents(SPARK_AKC_DIR, SPARK_JOINED_DIR)
+    else:
+        print(f"source: {config.DATA_DIR / 'extracted'} (part 1)")
+        docs = load_documents(config.DATA_DIR / "extracted")
     if not docs:
         sys.exit("no documents in data/extracted/ - run src/extractor/run.py first")
     index = build_index(docs)
